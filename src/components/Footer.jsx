@@ -15,8 +15,8 @@ const Footer = () => {
                 <div className='flex gap-5 text-lg sm:text-sm text-gray-400'>
                     <a href='https://github.com/RobertSN99/' target='_blank'><ImGithub className='hover:text-white duration-300 cursor-pointer'/></a>
                     <a href='https://www.linkedin.com/in/robert-spinoiu-06a9b120a/' target='_blank'><FaLinkedin className='hover:text-white duration-300 cursor-pointer'/></a>
-                    <a href='' target='_blank'><FaFacebookF className='hover:text-white duration-300 cursor-pointer'/></a>
-                    <a href='' target='_blank'><FaTwitter className='hover:text-white duration-300 cursor-pointer'/></a>
+                    <a href='#'><FaFacebookF className='hover:text-white duration-300 cursor-pointer'/></a>
+                    <a href='#'><FaTwitter className='hover:text-white duration-300 cursor-pointer'/></a>
                     <a href='https://instagram.com/srobertn99' target='_blank'><FaInstagram className='hover:text-white duration-300 cursor-pointer'/></a>
                 </div>
             </div>
