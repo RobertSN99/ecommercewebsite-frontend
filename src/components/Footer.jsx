@@ -1,6 +1,6 @@
 import React from 'react'
 import {ImGithub} from "react-icons/im"
-import {FaFacebookF, FaTwitter, FaInstagram, FaYoutube} from "react-icons/fa"
+import {FaFacebookF, FaTwitter, FaInstagram, FaLinkedin} from "react-icons/fa"
 import {logoDark, payment} from "../assets/index"
 
 const Footer = () => {
@@ -13,11 +13,11 @@ const Footer = () => {
                 <p className="text-white text-sm tracking-wide">© TimeHub.com</p>
                 <img className='w-56 sm:w-32' src={payment} alt="payment" />
                 <div className='flex gap-5 text-lg sm:text-sm text-gray-400'>
-                    <ImGithub className='hover:text-white duration-300 cursor-pointer'/>
-                    <FaYoutube className='hover:text-white duration-300 cursor-pointer'/>
-                    <FaFacebookF className='hover:text-white duration-300 cursor-pointer'/>
-                    <FaTwitter className='hover:text-white duration-300 cursor-pointer'/>
-                    <FaInstagram className='hover:text-white duration-300 cursor-pointer'/>
+                    <a href='https://github.com/RobertSN99/'><ImGithub className='hover:text-white duration-300 cursor-pointer'/></a>
+                    <a href='https://www.linkedin.com/in/robert-spinoiu-06a9b120a/'><FaLinkedin className='hover:text-white duration-300 cursor-pointer'/></a>
+                    <a href=''><FaFacebookF className='hover:text-white duration-300 cursor-pointer'/></a>
+                    <a href=''><FaTwitter className='hover:text-white duration-300 cursor-pointer'/></a>
+                    <a href='https://instagram.com/srobertn99'><FaInstagram className='hover:text-white duration-300 cursor-pointer'/></a>
                 </div>
             </div>
             <div className='text-base flex flex-col gap-2'>
